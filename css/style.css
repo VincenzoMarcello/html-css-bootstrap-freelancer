@@ -1,6 +1,6 @@
 :root {
   --bg-header: #2c3e50;
-  --bg-start: #1abc9c;
+  --bg-start-about: #1abc9c;
 }
 
 /* ! DEBUG */
@@ -21,7 +21,15 @@
 /* ! START SECTION */
 
 #start {
-  background-color: var(--bg-start);
+  background-color: var(--bg-start-about);
 }
 
 /* ! PORTFOLIO SECTION */
+
+/* ! ABOUT SECTION */
+
+#about {
+  background-color: var(--bg-start-about);
+}
+
+/* ! CONTACT ME SECTION */
