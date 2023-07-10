@@ -1,5 +1,5 @@
 :root {
-  --bg-header: #2c3e50;
+  --bg-header-footer: #2c3e50;
   --bg-start-about: #1abc9c;
 }
 
@@ -12,8 +12,9 @@
 /* ! HEADER */
 
 #header {
+  color: white;
   height: 100px;
-  background-color: var(--bg-header);
+  background-color: var(--bg-header-footer);
 }
 
 /* * MAIN */
@@ -33,3 +34,8 @@
 }
 
 /* ! CONTACT ME SECTION */
+
+#footer {
+  color: white;
+  background-color: var(--bg-header-footer);
+}
