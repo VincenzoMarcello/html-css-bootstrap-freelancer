@@ -1,3 +1,8 @@
+:root {
+  --bg-header: #2c3e50;
+  --bg-start: #1abc9c;
+}
+
 /* ! DEBUG */
 
 .bordered {
@@ -8,4 +13,15 @@
 
 #header {
   height: 100px;
+  background-color: var(--bg-header);
 }
+
+/* * MAIN */
+
+/* ! START SECTION */
+
+#start {
+  background-color: var(--bg-start);
+}
+
+/* ! PORTFOLIO SECTION */
