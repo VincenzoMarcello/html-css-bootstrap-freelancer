@@ -12,9 +12,18 @@
 /* ! HEADER */
 
 #header {
-  color: white;
-  height: 100px;
   background-color: var(--bg-header-footer);
+}
+
+/* ! NAVBAR */
+
+.navbar * {
+  color: white;
+}
+
+.navbar h4,
+h6 {
+  font-weight: 700;
 }
 
 /* * MAIN */
