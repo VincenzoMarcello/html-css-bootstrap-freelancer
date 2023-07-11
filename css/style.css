@@ -17,10 +17,6 @@
 
 /* ! NAVBAR */
 
-.navbar * {
-  color: white;
-}
-
 .navbar h4,
 h6 {
   font-weight: 700;
@@ -32,6 +28,25 @@ h6 {
 
 #start {
   background-color: var(--bg-start-about);
+  color: white;
+}
+
+#start img {
+  max-width: 200px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+#start ul {
+  list-style: none;
+}
+
+.h-row {
+  background-color: white;
+  height: 2px;
+  width: 10%;
 }
 
 /* ! PORTFOLIO SECTION */
