@@ -179,7 +179,7 @@
       <!-- CONTACT ME SECTION -->
       <section class="py-3" id="contact-me">
         <div class="container">
-          <h2 class="bordered text-center py-3">CONTACT ME</h2>
+          <h2 class="text-center py-3">CONTACT ME</h2>
 
           <div
             class="d-flex justify-content-center align-items-center gap-2 py-3"
@@ -189,12 +189,44 @@
             <div class="h-row dark"></div>
           </div>
 
-          <div class="row">
-            <div class="col-10 bordered m-auto py-5">Name</div>
-            <div class="col-10 bordered m-auto py-5">Email Address</div>
-            <div class="col-10 bordered m-auto py-5">Phone Number</div>
-            <div class="col-10 bordered m-auto py-5">Message</div>
-            <div class="col-10 bordered m-auto py-5">Button</div>
+          <div class="row justify-content-center">
+            <div class="col-8 col-md-10">
+              <form
+                action="http://learning.tizianonicolai.com/request-catcher/"
+                method="GET"
+              >
+                <input
+                  class="col-12 py-2 border border-top-0 border-end-0 border-start-0"
+                  type="text"
+                  id="Name"
+                  name="Name"
+                  placeholder="Name"
+                />
+                <input
+                  class="col-12 py-2 border border-top-0 border-end-0 border-start-0"
+                  type="email"
+                  id="Email"
+                  name="Email"
+                  placeholder="Email Address"
+                />
+                <input
+                  class="col-12 py-2 border border-top-0 border-end-0 border-start-0"
+                  type="text"
+                  id="Number"
+                  name="Number"
+                  placeholder="Phone number"
+                />
+                <textarea
+                  class="col-12 py-2 border border-top-0 border-end-0 border-start-0"
+                  name="Messaggio"
+                  id="Messaggio"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+
+                <button type="submit" class="btn btn-success mt-3">Send</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
