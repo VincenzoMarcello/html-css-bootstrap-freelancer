@@ -62,6 +62,7 @@ h1 {
 
 #about {
   background-color: var(--bg-start-about);
+  color: white;
 }
 
 /* ! CONTACT ME SECTION */
